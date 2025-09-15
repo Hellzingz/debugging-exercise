@@ -4,7 +4,7 @@ function lastNegativeIndex(nums) {
   let idx = -1;
   for (let i = nums.length; i >= 0; i--) {
     if (nums[i] < 0) {
-      idx = i;
+     return idx = i;
     }
   }
   return idx;
